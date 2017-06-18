@@ -58,7 +58,23 @@ input, textarea {
   background-color: black;
   color: white;
   border: none;
-  max-width: 8em;
+  width: 8em;
   min-height: 3em;
   cursor: pointer;
+  margin: 3px;
+}
+
+.poem {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  padding: 3em;
+  text-align: center;
+}
+
+.poemOptions {
+  display: flex;
+  justify-content: center;
 }
