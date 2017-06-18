@@ -1,8 +1,14 @@
 import React from "react";
+import Poem from "./Poem";
 
 class Home extends React.Component {
   render() {
-    return <h1 className="title">Welcome</h1>;
+    return (
+      <div>
+        <h1 className="title">Express your poetic side</h1>
+        <Poem />
+      </div>
+    );
   }
 }
 

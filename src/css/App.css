@@ -34,3 +34,47 @@
   font-size: 3em;
   color: #b10000;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+input, textarea {
+  margin: 1em;
+}
+
+.poem-text {
+  min-height: 6em;
+}
+
+.poem-author {
+  max-width: 15em;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  width: 8em;
+  min-height: 3em;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.poem {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  padding: 3em;
+  text-align: center;
+}
+
+.poemOptions {
+  display: flex;
+  justify-content: center;
+}
